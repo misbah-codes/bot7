@@ -1,0 +1,224 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello! Welcome to Nawab Shah Alam Khan College of Engineering and Technology (NSAKCET). How can I assist you today?",
+                "Hi there! I'm here to provide information about NSAKCET. What would you like to know?",
+                "Greetings! Welcome to NSAKCET's information portal. How can I help you today?"
+            ]
+        },
+        {
+            "tag": "affiliation",
+            "patterns": [
+                "What is the affiliation of NSAKCET?",
+                "Which university is NSAKCET affiliated with?",
+                "Is NSAKCET affiliated to Osmania University?",
+                "What is the current affiliation status?",
+                "Is NSAKCET under JNTU?",
+                "JNTU affiliation",
+                "Osmania University affiliation",
+                "Current university status"
+            ],
+            "responses": [
+                "**Current Affiliation Status of NSAKCET:**\n\n• NSAKCET is **primarily affiliated with Osmania University (OU)** for most of its UG and PG engineering programs\n• This is the current and official affiliation status\n\n**Important Notes:**\n• Undergraduate (B.Tech/B.E) programs are affiliated with Osmania University\n• Postgraduate (M.Tech) programs are also under Osmania University\n• You may find some older references or certain contexts still mentioning JNTU-Hyderabad, but these reflect outdated information or transitional affiliations\n• For admission procedures and degree certificates, follow Osmania University guidelines\n\n**Accreditation & Approval:**\n• AICTE Approved\n• NAAC 'B+' Grade\n• UGC Autonomous Status",
+                "Yes, NSAKCET is officially affiliated with Osmania University. While some older listings or certain contexts might still reference JNTU-Hyderabad, the prevailing and current information confirms Osmania University as the active affiliation for all major programs including CSE, Civil Engineering, Mechanical Engineering, and M.Tech specializations.",
+                "The college's current affiliation is with Osmania University. If you encounter mixed listings mentioning JNTU-Hyderabad, those are likely outdated references. For all practical purposes including admissions, examinations, and degree certificates, Osmania University guidelines apply."
+            ]
+        },
+        {
+            "tag": "programs",
+            "patterns": [
+                "What programs does NSAKCET offer?",
+                "Which courses are available?",
+                "What are the engineering branches?",
+                "Tell me about the UG programs",
+                "What PG courses are available?",
+                "B.Tech programs",
+                "M.Tech programs",
+                "Diploma courses",
+                "Course intake",
+                "Available specializations"
+            ],
+            "responses": [
+                "**Complete Program Offerings at NSAKCET:**\n\n**🎓 Undergraduate Programs (B.Tech/B.E):**\n• **Computer Science & Engineering (CSE)** - 60 seats\n• **CSE (Data Science)** - 60 seats\n• **CSE (AI & ML)** - 60 seats\n• **CSE (IoT & Cyber Security including Blockchain)** - 60 seats\n• **Information Technology (IT)** - 60 seats\n• **Civil Engineering** - 180 seats\n• **Mechanical Engineering** - 180 seats\n\n**🎓 Postgraduate Programs (M.Tech):**\n• **Computer Science & Engineering** - 18 seats\n• **Structural Engineering** - 18 seats\n• **Heat Ventilation & Air Conditioning (HVAC)** - 18 seats\n• **Embedded Systems** - 18 seats\n\n**🎓 Diploma Programs (Polytechnic):**\n• **Civil Engineering** - 30 seats\n• **Electrical & Electronics Engineering (EEE)** - 30 seats\n• **Electronics & Communication Engineering (ECE)** - 30 seats\n• **Mechanical Engineering** - 30 seats\n\n**Total Intake:** 720+ students across all programs",
+                "NSAKCET offers comprehensive engineering education with modern specializations. The college is known for its CSE programs with cutting-edge specializations in Data Science, AI & ML, and IoT & Cyber Security. Traditional engineering branches like Civil and Mechanical Engineering have higher intake capacity. The M.Tech programs focus on advanced areas like Structural Engineering, HVAC, and Embedded Systems, preparing students for specialized industry roles.",
+                "The college provides a well-balanced mix of programs:\n- **High-demand CSE specializations** with 60 seats each\n- **Core engineering branches** (Civil & Mechanical) with 180 seats each\n- **Advanced M.Tech programs** with 18 seats each for focused learning\n- **Diploma programs** for skill-based education with 30 seats each\n\nAll programs are affiliated with Osmania University and follow industry-relevant curriculum."
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "What are the fees?",
+                "Fee structure",
+                "How much does B.Tech cost?",
+                "What is the fee for M.Tech?",
+                "Diploma course fees",
+                "Fee details",
+                "Course fees",
+                "Annual fees",
+                "Management quota fees",
+                "Fee breakdown"
+            ],
+            "responses": [
+                "**💰 Complete Fee Structure at NSAKCET (2024-25):**\n\n**🎓 Undergraduate Programs (B.Tech):**\n• **Regular Fee:** ₹68,000 per year\n• **Total for 4 years:** ₹2,72,000\n\n**🎓 Postgraduate Programs (M.Tech):**\n• **Regular Fee:** ₹57,000 per year\n• **Total for 2 years:** ₹1,14,000\n\n**🎓 Diploma Programs:**\n• **Regular Fee:** ₹15,500 - ₹15,550 per year\n• **Total for 3 years:** ₹46,500 - ₹46,650\n\n**💼 Management Quota Fees (Example - CSE):**\n• **Annual Fee:** ₹73,000 per year\n• **One-time Charges:** ~₹2,00,000\n• **Additional First-year Fees:** Up to ₹1,60,000\n• **Total First Year:** ~₹4,33,000\n• **Subsequent Years:** ₹73,000 per year\n\n**📋 Additional Charges:**\n• Development Fee, Library Fee, Lab Fee, etc. (as applicable)\n• Examination fees (as per university norms)\n• Transportation charges (if availed)\n\n*Note: Fees are subject to change. Please contact the college administration for the most current and detailed fee structure.*"
+            ]
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "How to get admission?",
+                "What is the admission process?",
+                "How to apply for B.Tech?",
+                "What are the entrance exams?",
+                "Admission requirements",
+                "TS EAMCET",
+                "TS PGECET",
+                "GATE admission",
+                "Management quota",
+                "How to apply"
+            ],
+            "responses": [
+                "**🎓 Complete Admission Process at NSAKCET:**\n\n**📋 For B.Tech Programs:**\n• **Primary Route:** TS EAMCET counseling\n• **Eligibility:** 10+2 with Physics, Chemistry, Mathematics\n• **Minimum Marks:** 45% (40% for reserved categories)\n• **Entrance Exam:** TS EAMCET (Telangana State Engineering, Agriculture & Medical Common Entrance Test)\n• **Counseling:** Online counseling through TS EAMCET portal\n• **Management Quota:** Direct admission available (higher fees apply)\n\n**📋 For M.Tech Programs:**\n• **Primary Route:** TS PGECET (Post Graduate Engineering Common Entrance Test)\n• **Alternative:** GATE qualified candidates\n• **Eligibility:** B.Tech/B.E in relevant discipline with minimum 50% marks\n• **Selection:** Based on entrance exam scores and counseling\n\n**📋 For Diploma Programs:**\n• **Admission:** Merit-based on qualifying examination\n• **Eligibility:** 10th pass with minimum 35% marks\n• **Management Quota:** Available for direct admission\n\n**📄 Required Documents:**\n• 10th and 12th mark sheets and certificates\n• Transfer Certificate (TC)\n• Migration Certificate (if applicable)\n• Aadhaar Card\n• Caste Certificate (if applicable)\n• Income Certificate (if applicable)\n• Passport size photographs\n• Parent's income certificate\n\n**📅 Important Dates:**\n• TS EAMCET: Usually conducted in May-June\n• TS PGECET: Usually conducted in May-June\n• Application deadlines vary each year\n\n*For specific dates and detailed procedures, visit the official TS EAMCET/TS PGECET websites or contact the college admission office.*"
+            ]
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "What facilities are available?",
+                "Campus infrastructure",
+                "Does the college have a library?",
+                "Sports facilities",
+                "Hostel facilities",
+                "Campus amenities",
+                "Infrastructure details",
+                "College facilities",
+                "Campus life"
+            ],
+            "responses": [
+                "**🏛️ Complete Campus Facilities at NSAKCET:**\n\n**📚 Academic Infrastructure:**\n• **Modern Classrooms:** Air-conditioned, well-ventilated with smart boards\n• **Laboratories:** Department-specific labs with latest equipment\n  • Computer Labs with high-end systems\n  • Engineering Labs (Civil, Mechanical, ECE, EEE)\n  • Research Labs for M.Tech students\n• **Library:** Well-stocked with books, journals, e-resources, and digital databases\n• **Seminar Halls:** For conferences, workshops, and presentations\n• **Auditorium:** Large capacity for events and ceremonies\n\n**🏃‍♂️ Sports & Recreation:**\n• **Playground:** Outdoor sports facilities\n• **Indoor Sports:** Table tennis, chess, carrom\n• **Gymnasium:** Fitness center for students\n• **Sports Equipment:** Available for various games\n\n**🍽️ Campus Amenities:**\n• **Cafeteria:** Multi-cuisine food court\n• **Medical Center:** First-aid and basic medical care\n• **Transportation:** Bus facility on specific routes\n• **Wi-Fi Campus:** High-speed internet connectivity\n• **Parking:** Ample parking space for students and staff\n\n**🏠 Accommodation:**\n• **Hostel:** Currently no on-campus hostel facilities\n• **Nearby Options:** Various PG and hostel options available in the vicinity\n\n**🔧 Additional Features:**\n• **ATM Facility:** On-campus banking\n• **Stationery Shop:** For academic supplies\n• **Photocopy Center:** For document services",
+                "NSAKCET provides comprehensive facilities to support academic excellence and student development. The campus features modern infrastructure with well-equipped laboratories, a resourceful library, and comfortable learning spaces. Students have access to sports facilities, cafeteria, medical care, and transportation services. While there's no on-campus hostel, the college is located in a well-connected area with various accommodation options nearby.",
+                "The college campus offers:\n- **State-of-the-art academic facilities** with modern equipment\n- **Extensive library resources** including digital access\n- **Sports and fitness facilities** for student wellness\n- **Essential amenities** like cafeteria, medical center, and transportation\n- **Technology-enabled learning** with Wi-Fi and smart classrooms\n\nAll facilities are maintained to high standards to ensure a conducive learning environment for students."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is NSAKCET located?",
+                "What is the college address?",
+                "How to reach the college?",
+                "Campus location"
+            ],
+            "responses": [
+                "**College Address:**\nNawab Shah Alam Khan College of Engineering & Technology\n#16-4-1, New Malakpet\nNear Railway Station\nHyderabad – 500024\nTelangana, India\n\n**How to Reach:**\n- **By Train:** The college is located near Malakpet Railway Station\n- **By Bus:** Well-connected by TSRTC buses\n- **By Metro:** The nearest metro station is Malakpet Metro Station\n\nFor specific directions, you can use Google Maps or contact the college administration."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How to contact the college?",
+                "Phone number",
+                "Email address",
+                "Office hours",
+                "Admission office contact"
+            ],
+            "responses": [
+                "**Contact Information for NSAKCET:**\n\n**Address:**\nNawab Shah Alam Khan College of Engineering & Technology\n#16-4-1, New Malakpet\nNear Railway Station\nHyderabad – 500024\nTelangana, India\n\n**Phone:** +91-XXXXXXXXXX\n**Email:** info@nsakcet.ac.in\n**Website:** www.nsakcet.ac.in\n\n**Office Hours:**\nMonday to Saturday: 9:00 AM to 5:00 PM\n(Closed on Sundays and public holidays)\n\nFor admission-related queries, please contact the admission office during working hours."
+            ]
+        },
+        {
+            "tag": "about_college",
+            "patterns": [
+                "Tell me about NSAKCET",
+                "College overview",
+                "When was the college established?",
+                "About the institution",
+                "College history",
+                "Institution details"
+            ],
+            "responses": [
+                "**🏛️ About Nawab Shah Alam Khan College of Engineering & Technology (NSAKCET)**\n\n**📅 Basic Information:**\n- **Established:** 2008\n- **Location:** #16-4-1, New Malakpet, Near Railway Station, Hyderabad – 500024, Telangana\n- **Type:** Private Engineering College\n\n**🎓 Academic Status:**\n- **Affiliation:** Osmania University (Primary)\n- **Approval:** AICTE (All India Council for Technical Education)\n- **Accreditation:** NAAC 'B+' Grade\n- **Autonomous Status:** Granted by UGC\n\n**🌟 Key Features:**\n- **Programs:** UG, PG, and Diploma programs in Engineering and Technology\n- **Infrastructure:** Modern campus with well-equipped labs and facilities\n- **Focus:** Industry-oriented education and research\n- **Placements:** Strong placement record with reputed companies\n- **Student Life:** Active student chapters and technical clubs\n- **Faculty:** Experienced and qualified teaching staff\n\n**🎯 Mission:**\nThe college is committed to providing quality technical education, fostering innovation, and preparing students for successful careers in engineering and technology.\n\n**📈 Growth:**\nSince its establishment in 2008, NSAKCET has grown to become a recognized institution offering diverse engineering programs with modern specializations."
+            ]
+        },
+        {
+            "tag": "accreditation",
+            "patterns": [
+                "What are the accreditations?",
+                "NAAC grade",
+                "AICTE approval",
+                "UGC status",
+                "College accreditations",
+                "Quality certifications",
+                "Recognition details"
+            ],
+            "responses": [
+                "**🏆 Accreditations & Recognitions at NSAKCET:**\n\n**✅ Primary Approvals:**\n• **AICTE Approved:** All India Council for Technical Education\n• **NAAC Accredited:** 'B+' Grade (National Assessment and Accreditation Council)\n• **UGC Autonomous:** Granted autonomous status by University Grants Commission\n\n**🎓 University Affiliation:**\n• **Primary Affiliation:** Osmania University\n• **Program Coverage:** All UG and PG programs under OU\n• **Degree Recognition:** Degrees awarded by Osmania University\n\n**📋 Quality Standards:**\n• **Academic Excellence:** Regular curriculum updates as per industry needs\n• **Faculty Quality:** Qualified and experienced teaching staff\n• **Infrastructure:** Modern labs and facilities meeting AICTE standards\n• **Research:** Encouraging research activities and projects\n\n**🌐 Recognition:**\n• **Government Recognition:** Approved by Government of Telangana\n• **Industry Recognition:** Strong industry partnerships and placements\n• **Student Recognition:** Active participation in technical competitions\n\n**📊 Quality Metrics:**\n• **NAAC Grade:** B+ (Good)\n• **AICTE Status:** Approved for all programs\n• **UGC Status:** Autonomous college\n• **University Status:** Osmania University affiliated\n\n*These accreditations ensure that NSAKCET maintains high standards of education and is recognized nationally.*"
+            ]
+        },
+        {
+            "tag": "placement",
+            "patterns": [
+                "What is the placement record?",
+                "Which companies visit for placements?",
+                "Placement statistics",
+                "Highest package"
+            ],
+            "responses": [
+                "**Placement Highlights at NSAKCET:**\n\n• The college has a dedicated Training & Placement Cell\n• Regular campus recruitment drives are conducted\n• Students are trained in technical and soft skills to enhance employability\n• Mock interviews and group discussions are organized\n\n**Recruiting Companies Include:**\n• Major IT and core companies from various sectors\n• Both national and multinational corporations\n\n*For specific placement statistics and the current year's highest package, please contact the Training & Placement Cell directly.*"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "I'm leaving",
+                "Have a good day"
+            ],
+            "responses": [
+                "Thank you for visiting NSAKCET's information portal. Have a great day!",
+                "Goodbye! If you have any more questions, feel free to ask.",
+                "Thank you for your interest in NSAKCET. Have a wonderful day!"
+            ]
+        },
+        {
+            "tag": "college_summary",
+            "patterns": [
+                "Give me complete information about NSAKCET",
+                "Tell me everything about the college",
+                "Complete college details",
+                "All information about NSAKCET",
+                "College summary",
+                "Full college overview",
+                "Complete details",
+                "Everything about NSAKCET"
+            ],
+            "responses": [
+                "**🏛️ Complete Information about NSAKCET**\n\n**📋 Basic Details:**\n• **Full Name:** Nawab Shah Alam Khan College of Engineering & Technology\n• **Established:** 2008\n• **Location:** #16-4-1, New Malakpet, Near Railway Station, Hyderabad – 500024, Telangana\n• **Type:** Private Engineering College\n\n**🎓 Academic Status:**\n• **Affiliation:** Osmania University (Primary)\n• **Approval:** AICTE Approved\n• **Accreditation:** NAAC 'B+' Grade\n• **Status:** UGC Autonomous\n\n**📚 Programs & Intake:**\n**B.Tech Programs:**\n• CSE (60), CSE Data Science (60), CSE AI & ML (60), CSE IoT & Cyber Security (60)\n• IT (60), Civil Engineering (180), Mechanical Engineering (180)\n\n**M.Tech Programs:**\n• CSE (18), Structural Engineering (18), HVAC (18), Embedded Systems (18)\n\n**Diploma Programs:**\n• Civil, EEE, ECE, Mechanical (30 seats each)\n\n**💰 Fee Structure:**\n• B.Tech: ₹68,000/year\n• M.Tech: ₹57,000/year\n• Diploma: ₹15,500-15,550/year\n• Management Quota: Higher fees apply\n\n**🎯 Admission Process:**\n• B.Tech: TS EAMCET counseling\n• M.Tech: TS PGECET/GATE\n• Diploma: Merit-based\n\n**🏛️ Facilities:**\n• Modern labs, library, auditorium, cafeteria\n• Sports facilities, gym, medical center\n• Wi-Fi campus, transportation\n• No on-campus hostel\n\n**📞 Contact:**\n• Email: info@nsakcet.ac.in\n• Website: www.nsakcet.ac.in\n• Office Hours: Mon-Sat 9 AM-5 PM\n\n*This comprehensive overview covers all major aspects of NSAKCET. For specific details about any particular area, feel free to ask!*"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "I appreciate it"
+            ],
+            "responses": [
+                "You're welcome! If you have any more questions, feel free to ask.",
+                "Happy to help! Is there anything else you'd like to know about NSAKCET?",
+                "You're welcome! Don't hesitate to ask if you need more information."
+            ]
+        }
+    ]
+}

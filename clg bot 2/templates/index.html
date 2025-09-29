@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSAKCET - College Enquiry Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Theme Toggle -->
+        <div class="theme-toggle">
+            <button id="theme-toggle" class="theme-btn" title="Toggle Theme">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+
+        <!-- Chat Container -->
+        <div class="chat-container">
+            <!-- Header -->
+            <div class="chat-header">
+                <div class="header-content">
+                    <div class="avatar">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="header-info">
+                        <h3>NSAKCET Assistant</h3>
+                        <p class="status">
+                            <span class="status-dot"></span>
+                            Ask me anything about our college
+                        </p>
+                    </div>
+                    <div class="header-actions">
+                        <button id="clear-chat" class="action-btn" title="Clear Chat">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <button id="settings-btn" class="action-btn" title="Settings">
+                            <i class="fas fa-cog"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="quick-actions" id="quick-actions">
+                <button class="quick-btn" data-query="What programs does NSAKCET offer?">
+                    <i class="fas fa-graduation-cap"></i>
+                    Programs
+                </button>
+                <button class="quick-btn" data-query="What are the fees?">
+                    <i class="fas fa-rupee-sign"></i>
+                    Fees
+                </button>
+                <button class="quick-btn" data-query="How to get admission?">
+                    <i class="fas fa-user-plus"></i>
+                    Admission
+                </button>
+                <button class="quick-btn" data-query="What facilities are available?">
+                    <i class="fas fa-building"></i>
+                    Facilities
+                </button>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chat-messages" id="chat-messages">
+                <!-- Welcome Message -->
+                <div class="message bot-message welcome-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-text">
+                            <p>Hello! I'm your NSAKCET assistant. How can I help you today?</p>
+                        </div>
+                        <div class="message-time">Just now</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Input -->
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <button id="attach-btn" class="attach-btn" title="Attach File">
+                        <i class="fas fa-paperclip"></i>
+                    </button>
+                    <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+                    <button id="voice-btn" class="voice-btn" title="Voice Input">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    <button id="send-button" class="send-btn">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div id="voice-status" class="voice-status">
+                    <div class="pulse-ring"></div>
+                    <span>Listening...</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Modal -->
+        <div id="settings-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Settings</h3>
+                    <button class="close-btn" id="close-settings">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="setting-item">
+                        <label for="font-size">Font Size</label>
+                        <select id="font-size">
+                            <option value="small">Small</option>
+                            <option value="medium" selected>Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </div>
+                    <div class="setting-item">
+                        <label for="animations">Animations</label>
+                        <input type="checkbox" id="animations" checked>
+                    </div>
+                    <div class="setting-item">
+                        <label for="sound-effects">Sound Effects</label>
+                        <input type="checkbox" id="sound-effects" checked>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
